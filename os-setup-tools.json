@@ -6,18 +6,18 @@
 			"command_type" : "start-container",
 			"appname" : [
 				"m1-filetracker",
-				"s2-rest-api",
+				"s2-rest-api"
 			],
 			"cpu-load" : "50",
 			"mem-allocation" : "4G",
-			"start-path" : "/opt/build-net",
-		}, 
+			"start-path" : "/opt/build-net"
+		},
 		{
 			"id" : 2,
 			"command_type" : "stop-container",
 			"appname" : [
 				"m1-filetracker",
-				"s2-rest-api",
+				"s2-rest-api"
 			]
 		}
 	]
