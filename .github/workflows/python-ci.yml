@@ -1,0 +1,15 @@
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements-dev.txt
+      - run: |
+          pytest --junitxml=test-results.xml
+          flake8 src/ --exit-zero
+          mypy src/
+      - uses: codecov/codecov-action@v3

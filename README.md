@@ -1,6 +1,6 @@
 # Build Net
 
-# metricflow (MetaFlow) Automator 📊 [![Python CI](https://img.shields.io/github/actions/workflow/status/denezt/build-net/python-ci.yml?label=Build&logo=github)](https://github.com/denezt/build-net/actions) [![PyPI Version](https://img.shields.io/pypi/v/metadata-flow?color=blue&logo=pypi)](https://pypi.org/project/metadata-flow/)
+# MetaFlow Automator 📊 [![Python CI](https://img.shields.io/github/actions/workflow/status/denezt/build-net/python-ci.yml?label=Build&logo=github)](https://github.com/denezt/build-net/actions) [![PyPI Version](https://img.shields.io/pypi/v/metadata-flow?color=blue&logo=pypi)](https://pypi.org/project/metadata-flow/)
 
 A Linux-first automation toolkit for managing distributed project metadata. Combines bash scripting efficiency with Python data processing power for enterprise-scale metadata operations.
 
@@ -139,3 +139,4 @@ Project:
 5. Document new features in `man/metaflow.1.ronn`
 
 ## License 📄
+<https://unlicense.org>
