@@ -1,0 +1,21 @@
+[project]
+name = "build-net"
+version = "1.0.0"
+description = "An automation toolkit for managing distributed project metadata. Combines data processing power for enterprise-scale metadata operations"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+	"asyncio",
+	"boto3",
+	"click==8.1.7",
+	"google",
+	"ollama",
+	"pandas==2.1.4",
+	"pydantic==2.5.3",
+	"python-dotenv==1.0.0",
+	"pyyaml==6.0.1",
+	"rich==13.7.0",
+	"spacy>=3.7,<3.9",
+	"en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl",
+  	"en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl"
+]

@@ -1,0 +1,28 @@
+# Generated Files
+.venv
+uv.lock
+
+# Local Files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# IDE Files
+.vscode/
+.idea/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution Files
+dist/
+build/
+*.egg-info/
+
+# Environment Variables
+.env
